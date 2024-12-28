@@ -1,0 +1,74 @@
+.education {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Card Layout for Education */
+  .education-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .education-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: cardFadeIn 1.5s ease-in-out;
+  }
+  
+  .education-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .education-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Hover effect for the cards */
+  .education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes cardFadeIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design - Stack cards vertically on smaller screens */
+  @media (max-width: 768px) {
+    .education-cards {
+      grid-template-columns: 1fr; /* 1 card per row */
+    }
+  }
+  
