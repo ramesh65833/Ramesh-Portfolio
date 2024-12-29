@@ -24,7 +24,9 @@ const About = () => {
           </p>
           <div className="about-info">
             <div className="about-item">
-              <button className="check-resume-btn">Check Resume</button>
+            <a href="/assets/Ramesh_B_J-v1.1[1].pdf" className="resume-link" target="_blank" rel="noopener noreferrer">
+          <button className="check-resume-btn">Check Resume</button>
+        </a>
             </div>
             <div className="about-item">
               <p><strong>Completed Projects:</strong> 5+</p>
