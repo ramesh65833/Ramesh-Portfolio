@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-content">
           <div className="name-intro">
             <h1>
-              Hi, I am <span className="highlight-name">Rameshbabu</span> JeyaPrakash
+              Hi, I am <span className="highlight-name">Rameshbabu</span> Boolu JeyaPrakash
             </h1>
             <h3>FRONTEND WEB DEVELOPER</h3>
           </div>
@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <div className="about-info">
             <div className="about-item">
-            <a href="/assets/Ramesh_B_J-v1.1[1].pdf" className="resume-link" target="_blank" rel="noopener noreferrer">
+            <a href="/assets/Ramesh B J-v1.2.1.pdf" className="resume-link" target="_blank" rel="noopener noreferrer">
           <button className="check-resume-btn">Check Resume</button>
         </a>
             </div>
