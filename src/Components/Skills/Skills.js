@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaBootstrap, FaGithub, FaGitAlt } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss } from 'react-icons/si'; // Import Next.js and Tailwind CSS icons
 import './Skills.css';
-
 
 const Skills = () => {
   return (
@@ -15,6 +15,8 @@ const Skills = () => {
         <div className="skill-card skill-card-animate skill-bootstrap"><FaBootstrap className="skill-icon" /> Bootstrap</div>
         <div className="skill-card skill-card-animate skill-git"><FaGitAlt className="skill-icon" /> Git</div>
         <div className="skill-card skill-card-animate skill-github"><FaGithub className="skill-icon" /> GitHub</div>
+        <div className="skill-card skill-card-animate skill-next"><SiNextdotjs className="skill-icon" /> Next.js</div> {/* Next.js */}
+        <div className="skill-card skill-card-animate skill-tailwind"><SiTailwindcss className="skill-icon" /> Tailwind CSS</div> {/* Tailwind CSS */}
         <div className="skill-card skill-card-animate">
           <img src='/Images/Vscode.png' alt="VS Code" className="skill-icon" /> VS Code {/* Display VS Code PNG */}
         </div>

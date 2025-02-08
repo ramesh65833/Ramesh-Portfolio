@@ -20,7 +20,7 @@ const About = () => {
             <h3>FRONTEND WEB DEVELOPER</h3>
           </div>
           <p className="about-description">
-            I am a passionate Front-End Web Developer eager to create beautiful, user-friendly websites. I blend design and code to craft compelling digital experiences. Let's build something amazing together! I specialize in front-end development and am excited to kick-start my career in web development.
+          As a Front-End Web Developer with 1.5+ years of experience, I have honed my skills in crafting visually stunning, responsive websites that offer seamless user experiences. My expertise lies in transforming design concepts into functional, interactive interfaces using modern front-end technologies. Passionate about creating user-centered digital solutions, I am eager to bring my skills and creative problem-solving to new projects and continue growing in the field of web development.
           </p>
           <div className="about-info">
             <div className="about-item">

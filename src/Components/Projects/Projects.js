@@ -19,9 +19,9 @@ const Projects = () => {
       },
    
     {
-        title: 'Laundry Management Software',
-        description: 'A complete solution for managing laundry businesses with inventory and billing features.',
-        link: 'https://laundrymanagement.example.com', 
+        title: 'Healthcare 360 (Nutritionist Consultant)',
+        description: 'A complete solution for Handling Customer/Clients needs and Document the Details of the Customer/Clients.',
+        link: 'https://healthcare360hub.com/category/diet-nutrient/', 
         // image: '/images/laundry-management.jpg',
       },
     {
